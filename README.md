@@ -128,11 +128,13 @@ where:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![matrix_h]
 
+Matrix H is therefore:
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![matrix_h_values]
 
 [decoder_eq]: https://chart.apis.google.com/chart?cht=tx&chl=ParityBits=[H*y^T]
-[matrix_h]: https://chart.apis.google.com/chart?cht=tx&chl=H=[A*I_r]
-
+[matrix_h]: https://chart.apis.google.com/chart?cht=tx&chl=H=[A|I_r]
+[matrix_h_values]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/h_matrix.png
 
 ## Creators
 
