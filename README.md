@@ -89,7 +89,7 @@ To get the generator matrix, the following formula was used:
 where:
 - ![f5] is the *k* x *k* identity matrix
 
-![id_matrix_Ik]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![id_matrix_Ik]
 
 
 [f3]: https://chart.apis.google.com/chart?cht=tx&chl=x=m*G
