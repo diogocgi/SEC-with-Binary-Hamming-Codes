@@ -59,8 +59,12 @@ Encoder/
 
 In order to implement the encoder and decoder, we first calculated *n* and *k* based on the number of redundant bits *r* = 4 required by the project. The following formulas were used:
 
-![f1]
-![f2]
+Length of the encoded message:
+
+    - ![f1]
+
+Length of the message:
+    - ![f2]
 
 [f1]: https://chart.apis.google.com/chart?cht=tx&chl=n=2^r-1
 [f2]: https://chart.apis.google.com/chart?cht=tx&chl=k=n-r
