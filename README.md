@@ -4,6 +4,9 @@ Single-error-correction of messages with binary Hamming Code in Quartus VHDL
 ## Table of Contents
 - [Objective](#objective)
 - [What's included](#whats-included)
+- [Implementation](#implementation)
+    - [Encoder](#encoder)
+    - [Decoder](#decoder)
 - [Creators](#creators)
 
 ## Objective
@@ -51,6 +54,25 @@ Encoder/
     +-- xnor_2.vhd
     +-- xor_2.vhd
 ```
+
+## Implementation
+
+In order to implement the encoder and decoder, we first calculated **n** and **k** from the number of redundant bits to be used (r = 4):
+
+![f1]
+
+[f1]: https://chart.apis.google.com/chart?cht=tx&chl=m=\frac{0}{1}
+
+### Encoder
+
+
+
+
+
+### Decoder
+
+
+
 
 ## Creators
 
