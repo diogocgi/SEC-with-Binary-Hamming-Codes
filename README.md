@@ -99,7 +99,7 @@ where:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![matrix_a_transpose]
 
-The generator matrix used in the project to calculate the redundant bits is:
+Concatenating both matrices results in the generator matrix used to produce the encoded message:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![g_matrix]
 
