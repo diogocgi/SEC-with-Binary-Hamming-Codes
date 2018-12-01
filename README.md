@@ -95,9 +95,9 @@ where:
 [f3]: https://chart.apis.google.com/chart?cht=tx&chl=x=m*G
 [f4]: https://chart.apis.google.com/chart?cht=tx&chl=G=[I_k|A^T]
 [f5]: https://chart.apis.google.com/chart?cht=tx&chl=I_k
-[id_matrix_Ik]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/images/identity_matrix_Ik.png
-[matrix_a]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/images/matrix_A.png
-[matrix_a_transpose]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/images/transpose_of_matrix_A.png
+[id_matrix_Ik]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/identity_matrix_Ik.png
+[matrix_a]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/matrix_A.png
+[matrix_a_transpose]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/transpose_of_matrix_A.png
 
 
 
