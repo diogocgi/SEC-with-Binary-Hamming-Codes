@@ -157,19 +157,19 @@ Testing of the main components of the project:
 
 ![encoder_sim]
 
-[encoder_simulation]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/encoder_vwf.png
+[encoder_sim]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/encoder_vwf.png
 
 ### Control Unit simulation
 
 ![control_unit_sim]
 
-[control_unit_simulation]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/control_unit_vwf.png
+[control_unit_sim]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/control_unit_vwf.png
 
 ### Decoder simulation
 
 ![decoder_sim]
 
-[decoder_simulation]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/decoder_vwf.png
+[decoder_sim]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/decoder_vwf.png
 
 ## Creators
 
