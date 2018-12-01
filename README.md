@@ -61,7 +61,7 @@ In order to implement the encoder and decoder, we first calculated **n** and **k
 
 ![f1]
 
-[f1]: https://chart.apis.google.com/chart?cht=tx&chl=m=\frac{0}{1}
+[f1]: https://chart.apis.google.com/chart?cht=tx&chl=n=2^r-1
 
 ### Encoder
 
