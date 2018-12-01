@@ -61,11 +61,11 @@ In order to implement the encoder and decoder, we first calculated *n* and *k* b
 
 - length of the encoded message:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![f1]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![f1]
 
 - length of the message:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![f2]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![f2]
 
 [f1]: https://chart.apis.google.com/chart?cht=tx&chl=n=2^r-1
 [f2]: https://chart.apis.google.com/chart?cht=tx&chl=k=n-r
