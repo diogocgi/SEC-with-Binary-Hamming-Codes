@@ -76,7 +76,23 @@ The encoding process is described by the formula:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![f3]
 
+where:
+
+- *x* is the encoded message
+- *m* is the message to be encoded
+- *G* is the *k* x *n* generator matrix
+
+To get the generator matrix, the following formula was used:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![f4]
+
+
+
+
+
+
 [f3]: https://chart.apis.google.com/chart?cht=tx&chl=x=m*G
+[f4]: https://chart.apis.google.com/chart?cht=tx&chl=G=[I_k|-A^T]
 
 
 ### Decoder
