@@ -8,9 +8,9 @@ Single-error-correction of messages with binary Hamming Code in Quartus VHDL
     - [Encoder](#encoder)
     - [Decoder](#decoder)
 - [Component testing](#component_testing)
-    - [Encoder simulation](#encoder simulation)
-    - [Control Unit simulation](#control_unit_sim simulation)
-    - [Decoder simulation](#decoder simulation)
+    - [Encoder simulation](#encoder-simulation)
+    - [Control Unit simulation](#control-unit-simulation)
+    - [Decoder simulation](#decoder-simulation)
 - [Creators](#creators)
 
 ## Objective
