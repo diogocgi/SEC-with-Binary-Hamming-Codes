@@ -91,6 +91,15 @@ where:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![id_matrix_Ik]
 
+- matrix A is composed of all permutations, of the redundant bits, with 2 or more bits equal to '1' (each column represents one permutation):
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![matrix_a]
+
+so the transpose of matrix A is:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![matrix_a_transpose]
+
+
 
 [f3]: https://chart.apis.google.com/chart?cht=tx&chl=x=m*G
 [f4]: https://chart.apis.google.com/chart?cht=tx&chl=G=[I_k|A^T]
