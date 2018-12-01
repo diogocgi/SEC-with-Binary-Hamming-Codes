@@ -124,6 +124,8 @@ The decoding process is described by the formula:
 
 where:
 
+- *y* is the received message, possibly with transmission errors, and ![y_t] is the transpose of *y*. This message is 15 bits long because it contains the four redundant bits.
+
 - matrix H is obtained by:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![matrix_h]
@@ -132,16 +134,11 @@ Matrix H is therefore:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![matrix_h_values]
 
-- *y* is the received message, possibly with transmission errors, and ![y_t] is the transpose of *y*. This message has 15 bits because it contains the foru redundant bits.
-
 The result of multiplying the *H* matrix by ![y_t] allows for the detection of transmission errors:
 
 - if all four parity bits are '0', then the message has no errors
 
 - if one or more parity bits are '1', then the message has one or more errors
-
-
-
 
 [y_t]: https://chart.apis.google.com/chart?cht=tx&chl=y^T
 [decoder_eq]: https://chart.apis.google.com/chart?cht=tx&chl=ParityBits=[H*y^T]
