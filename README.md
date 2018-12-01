@@ -72,8 +72,11 @@ In order to implement the encoder and decoder, we first calculated *n* and *k* b
 
 ### Encoder
 
+The encoding process is described by the formula:
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![f3]
 
+[f3]: https://chart.apis.google.com/chart?cht=tx&chl=x=m.G
 
 
 ### Decoder
