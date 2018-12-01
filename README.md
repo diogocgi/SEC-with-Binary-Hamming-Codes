@@ -132,9 +132,22 @@ Matrix H is therefore:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![matrix_h_values]
 
+- *y* is the received message, possibly with transmission errors, and ![y_t] is the transpose of *y*. This message has 15 bits because it contains the foru redundant bits.
+
+The result of multiplying the *H* matrix by ![y_t] allows for the detection of transmission errors:
+
+- if all four parity bits are '0', then the message has no errors
+
+- if one or more parity bits are '1', then the message has one or more errors
+
+
+
+
+[y_t]: https://chart.apis.google.com/chart?cht=tx&chl=y^T
 [decoder_eq]: https://chart.apis.google.com/chart?cht=tx&chl=ParityBits=[H*y^T]
 [matrix_h]: https://chart.apis.google.com/chart?cht=tx&chl=H=[A|I_r]
 [matrix_h_values]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/h_matrix.png
+
 
 ## Creators
 
