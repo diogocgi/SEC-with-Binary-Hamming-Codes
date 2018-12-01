@@ -120,7 +120,9 @@ The multiplication of the message by the last four columns of the G matrix resol
 
 The decoding process is described by the formula:
 
-[f1]: https://chart.apis.google.com/chart?cht=tx&chl=ParityBits=[H*y^T]
+![decoder_eq]
+
+[decoder_eq]: https://chart.apis.google.com/chart?cht=tx&chl=ParityBits=[H*y^T]
 
 
 
