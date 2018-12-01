@@ -3,7 +3,7 @@ Single-error-correction of messages with binary Hamming Code in Quartus VHDL
 
 ##### Table of Contents
 - [Objective](#objective)
-- [What's-included](#what's-included)
+- [What's included](#what's-included)
 - [Creators](#creators)
 
 
