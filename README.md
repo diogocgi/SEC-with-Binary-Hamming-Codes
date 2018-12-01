@@ -57,11 +57,13 @@ Encoder/
 
 ## Implementation
 
-In order to implement the encoder and decoder, we first calculated **n** and **k** from the number of redundant bits to be used (r = 4):
+In order to implement the encoder and decoder, we first calculated *n* and *k* based on the number of redundant bits *r* = 4 required by the project. The following formulas were used:
 
 ![f1]
+![f2]
 
 [f1]: https://chart.apis.google.com/chart?cht=tx&chl=n=2^r-1
+[f2]: https://chart.apis.google.com/chart?cht=tx&chl=k=n-r
 
 ### Encoder
 
