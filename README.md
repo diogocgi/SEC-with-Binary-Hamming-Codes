@@ -92,7 +92,7 @@ To get the generator matrix, the following formula was used:
 
 
 [f3]: https://chart.apis.google.com/chart?cht=tx&chl=x=m*G
-[f4]: https://chart.apis.google.com/chart?cht=tx&chl=G=[I_k|-A^T]
+[f4]: https://chart.apis.google.com/chart?cht=tx&chl=G=[I_k|A^T]
 
 
 ### Decoder
