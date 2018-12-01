@@ -8,16 +8,18 @@ Single-error-correction of messages with binary Hamming Code in Quartus VHDL
 
 ## Objective
 
-The premise of the project was to implement the Hamming code for 1-bit error correction with the triplet [11, 15, 3], where:
-- k (number of information bits) = 11
+This project is the first assignment of the Advanced Computer Architecture (ACA) subject directed by professor António Borges.
+
+The premise of this project was to implement the Hamming code for 1-bit error correction with the triplet [15, 11, 3], where:
 - n (number of bits of the encoded message) = 15
+- k (number of information bits) = 11
 - d (Hamming distance) = 3.
 
 The encoder and decoder had to be implemented with the structural modeling style in order to closely simulate and describe the hardware.
 
 The module:
 
-- encoder was implemented with a sequential digital circuit, from the schematics given by the teacher
+- encoder was implemented with a sequential digital circuit, from the schematics given by the professor
 - decoder was implemented with a combinatorial digital circuit
 
 ## What's included
@@ -58,4 +60,4 @@ Encoder/
 
 **Miguel Carvalho**
 
-- <to be filled>
+- to be filled
