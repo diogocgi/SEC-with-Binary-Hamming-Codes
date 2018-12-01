@@ -99,6 +99,11 @@ where:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![matrix_a_transpose]
 
+The generator matrix used in the project to calculate the redundant bits is:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![g_matrix]
+
+
 
 
 [f3]: https://chart.apis.google.com/chart?cht=tx&chl=x=m*G
@@ -107,6 +112,7 @@ where:
 [id_matrix_Ik]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/identity_matrix_Ik.png
 [matrix_a]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/matrix_A.png
 [matrix_a_transpose]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/transpose_of_matrix_A.png
+[g_matrix]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/g_matrix.png
 
 
 
