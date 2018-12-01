@@ -91,11 +91,11 @@ where:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![id_matrix_Ik]
 
-- matrix A is composed of all permutations, of the redundant bits, with 2 or more bits equal to '1' (each column represents one permutation):
+- matrix A is composed of all permutations, of the redundant bits, with 2 or more bits equal to '1' (each column represents one permutation). The permutation order must be the same across both the encoder and decoder:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![matrix_a]
 
-so the transpose of matrix A is:
+- the transpose of matrix A can now be obtained:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![matrix_a_transpose]
 
