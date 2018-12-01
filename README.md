@@ -107,7 +107,6 @@ The multiplication of the message by the last four columns of the G matrix resol
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![parity_check_matrix_get_bits]
 
-
 [f3]: https://chart.apis.google.com/chart?cht=tx&chl=x=m*G
 [f4]: https://chart.apis.google.com/chart?cht=tx&chl=G=[I_k|A^T]
 [f5]: https://chart.apis.google.com/chart?cht=tx&chl=I_k
@@ -117,10 +116,11 @@ The multiplication of the message by the last four columns of the G matrix resol
 [g_matrix]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/g_matrix.png
 [parity_check_matrix_get_bits]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/parity_check_equations.png
 
-
-
 ### Decoder
 
+The decoding process is described by the formula:
+
+[f1]: https://chart.apis.google.com/chart?cht=tx&chl=ParityBits=[H*y^T]
 
 
 
