@@ -7,7 +7,7 @@ Single-error-correction of messages with binary Hamming Code in Quartus VHDL
 - [Creators](#creators)
 
 
-##Objective
+## Objective
 
 The premise of the project was to implement the Hamming code for 1-bit error correction with the triplet [11, 15, 3], where:
 - k (number of information bits) = 11
@@ -21,7 +21,7 @@ The module:
 - encoder was implemented with a sequential digital circuit, from the schematics given by the teacher
 - decoder was implemented with a combinatorial digital circuit
 
-##What's included
+## What's included
 ```
 Decoder/
     +-- and_2.vhd 	
