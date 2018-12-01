@@ -1,7 +1,7 @@
 # SEC-with-Binary-Hamming-Codes
 Single-error-correction of messages with binary Hamming Code in Quartus VHDL
 
-##### Table of Contents
+## Table of Contents
 - [Objective](#objective)
 - [What's included](#whats-included)
 - [Creators](#creators)
@@ -49,3 +49,13 @@ Encoder/
     +-- xnor_2.vhd
     +-- xor_2.vhd
 ```
+
+## Creators
+
+**Diogo Guedes**
+
+- <https://github.com/Diogo525>
+
+**Miguel Carvalho**
+
+- <to be filled>
