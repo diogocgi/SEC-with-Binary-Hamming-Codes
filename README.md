@@ -103,7 +103,9 @@ Concatenating both matrices results in the generator matrix used to produce the 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![g_matrix]
 
+The multiplication of the message by the last four columns of the G matrix resolves the 4 redundant bits. This operation is the same as using the four parity equations obtained from the A matrix:
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![parity_check_matrix_get_bits]
 
 
 [f3]: https://chart.apis.google.com/chart?cht=tx&chl=x=m*G
@@ -113,7 +115,7 @@ Concatenating both matrices results in the generator matrix used to produce the 
 [matrix_a]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/matrix_A.png
 [matrix_a_transpose]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/transpose_of_matrix_A.png
 [g_matrix]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/g_matrix.png
-
+[parity_check_matrix_get_bits]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/parity_check_equations.png
 
 
 
