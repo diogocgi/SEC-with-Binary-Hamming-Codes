@@ -7,6 +7,10 @@ Single-error-correction of messages with binary Hamming Code in Quartus VHDL
 - [Theoretical Approach](#theoretical-approach)
     - [Encoder](#encoder)
     - [Decoder](#decoder)
+- [Component testing](#component_testing)
+    - [Encoder simulation](#encoder simulation)
+    - [Control Unit simulation](#control_unit_sim simulation)
+    - [Decoder simulation](#decoder simulation)
 - [Creators](#creators)
 
 ## Objective
@@ -145,6 +149,27 @@ The result of multiplying the *H* matrix by ![y_t] allows for the detection of t
 [matrix_h]: https://chart.apis.google.com/chart?cht=tx&chl=H=[A|I_r]
 [matrix_h_values]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/h_matrix.png
 
+## Component testing
+
+Testing of the main components of the project:
+
+### Encoder simulation
+
+![encoder_sim]
+
+[encoder_simulation]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/encoder_vwf.png
+
+### Control Unit simulation
+
+![control_unit_sim]
+
+[control_unit_simulation]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/control_unit_vwf.png
+
+### Decoder simulation
+
+![decoder_sim]
+
+[decoder_simulation]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/decoder_vwf.png
 
 ## Creators
 
