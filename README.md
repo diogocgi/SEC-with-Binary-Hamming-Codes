@@ -86,13 +86,20 @@ To get the generator matrix, the following formula was used:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![f4]
 
+where:
+- ![f5] is the *k* x *k* identity matrix
 
-
-
+![id_matrix_Ik]
 
 
 [f3]: https://chart.apis.google.com/chart?cht=tx&chl=x=m*G
 [f4]: https://chart.apis.google.com/chart?cht=tx&chl=G=[I_k|A^T]
+[f5]: https://chart.apis.google.com/chart?cht=tx&chl=I_k
+[id_matrix_Ik]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/images/identity_matrix_Ik.png
+[matrix_a]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/images/matrix_A.png
+[matrix_a_transpose]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/images/transpose_of_matrix_A.png
+
+
 
 
 ### Decoder
