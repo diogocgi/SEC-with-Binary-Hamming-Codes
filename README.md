@@ -76,7 +76,7 @@ The encoding process is described by the formula:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![f3]
 
-[f3]: https://chart.apis.google.com/chart?cht=tx&chl=x=m.G
+[f3]: https://chart.apis.google.com/chart?cht=tx&chl=x=m*G
 
 
 ### Decoder
