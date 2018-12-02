@@ -14,6 +14,7 @@ Single-error-correction of messages with binary Hamming Code in Quartus VHDL
     - [Encoder simulation](#encoder-simulation)
     - [Control Unit simulation](#control-unit-simulation)
     - [Decoder simulation](#decoder-simulation)
+- [Tools](#tools)
 - [Creators](#creators)
 
 ## Objective
@@ -186,6 +187,12 @@ Testing of the main components of the project:
 ![decoder_sim]
 
 [decoder_sim]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/decoder_vwf.png
+
+## Tools
+
+The software Quartus Prime Lite Edition v18.1 was used to develop this project.
+
+To test the code it's advised to create a new project, create each individual file by copying and pasting the contents of the respective documents and create the simulation files from scratch. It's required to create new simulation files because Quartus stores in them the absolute path of the components used by the top level entity instead of their local paths, which may lead to errors during the simulations.
 
 ## Creators
 
