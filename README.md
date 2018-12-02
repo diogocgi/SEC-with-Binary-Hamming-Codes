@@ -191,7 +191,7 @@ Simulation of the main components of the project:
 
 ## Tools
 
-The software Quartus Prime Lite Edition v18.1 was used to develop this project.
+The software **Quartus Prime Lite Edition v18.1** was used to develop this project.
 
 ## Testing
 
