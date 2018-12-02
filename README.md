@@ -14,6 +14,7 @@ Single-error-correction of messages with binary Hamming Code in Quartus VHDL
     - [Encoder simulation](#encoder-simulation)
     - [Control Unit simulation](#control-unit-simulation)
     - [Decoder simulation](#decoder-simulation)
+- [Improvements](#improvements)
 - [Tools](#tools)
 - [Testing](#testing)
 - [Creators](#creators)
@@ -188,6 +189,10 @@ Simulation of the main components of the project:
 ![decoder_sim]
 
 [decoder_sim]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/decoder_vwf.png
+
+## Improvements
+
+The decoder can be further improved by reducing the number of XOR operations required to calculate the parity bits.
 
 ## Tools
 
