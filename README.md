@@ -163,7 +163,7 @@ The result of multiplying the *H* matrix by ![y_t] allows for the detection of t
 ![decoder_schem]
 
 [encoder_schem]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/encoder_schematics.png
-[decoder_schem]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/decoder_schematics.png
+[decoder_schem]: https://github.com/Diogo525/SEC-with-Binary-Hamming-Codes/blob/master/images/decoder_schematics.bmp
 
 ## Component testing
 
