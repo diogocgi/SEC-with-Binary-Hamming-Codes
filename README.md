@@ -21,19 +21,19 @@ Single-error-correction of messages with binary Hamming Code in Quartus VHDL
 
 ## Objective
 
-This project is the first assignment of the Advanced Computer Architecture (ACA) subject directed by professor António Borges.
+This is the first assignment of the Advanced Computer Architecture (ACA) course lectured by professor António Borges.
 
-The premise of this project was to implement the Hamming code for 1-bit error correction with the triplet [15, 11, 3], where:
+The objective of the project involves the implementation of the Hamming code for 1-bit error correction with the triplet [15, 11, 3], where:
 - n (number of bits of the encoded message) = 15
 - k (number of information bits) = 11
 - d (Hamming distance) = 3.
 
-The encoder and decoder had to be implemented with the structural modeling style in order to closely simulate and describe the hardware.
+And in order to closely simulate and describe the hardware, the structural modeling style was adopted.
 
 The module:
 
-- encoder was implemented with a sequential digital circuit, from the schematics given by the professor
-- decoder was implemented with a combinatorial digital circuit
+- encoder is implemented with a sequential digital circuit, from the schematics given by the professor
+- decoder is implemented with a combinatorial digital circuit
 
 ## What's included
 ```
@@ -67,7 +67,7 @@ Encoder/
 
 ## Theoretical Approach
 
-In order to implement the encoder and decoder, we first calculated *n* and *k* based on the number of redundant bits *r* = 4 required by the project. The following formulas were used:
+The values for the *n* and *k* variables are calculated based on the number of redundant bits *r* = 4 addressed by the problem:
 
 - length of the encoded message:
 
@@ -82,7 +82,7 @@ In order to implement the encoder and decoder, we first calculated *n* and *k* b
 
 ### Encoder
 
-The encoding process is described by the formula:
+The encoding process of a message is described by the formula:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![f3]
 
@@ -200,7 +200,7 @@ The software **Quartus Prime Lite Edition v18.1** was used to develop this proje
 
 ## Testing
 
-To test the code it's advised to create a new project, create each individual file by copying and pasting the contents of the respective documents and create the simulation files from scratch. It's required to create new simulation files because Quartus stores in them the absolute path of the components used by the top level entity instead of their local paths, which may lead to errors during the simulations.
+For testing purposes it's required the creation of new simulation files. This is because the version of Quartus used stores the absolute path of the components, used by the top level entity, in the .vwf files. 
 
 ## Creators
 
